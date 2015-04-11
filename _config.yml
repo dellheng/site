@@ -68,5 +68,5 @@ theme: diasy
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/dellheng/dellheng.github.io
+  repo: git@github.com:dellheng/dellheng.github.io.git
   branch: master
