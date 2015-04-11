@@ -5,10 +5,11 @@ node_js:
 
 before_install:
   # test decrypt
-  - openssl aes-256-cbc -K $encrypted_017fc914e1a5_key -iv $encrypted_017fc914e1a5_iv -in super_secret.txt.enc -out super_secret.txt -d
-  - cat super_secret.txt
+  # - openssl aes-256-cbc -K $encrypted_017fc914e1a5_key -iv $encrypted_017fc914e1a5_iv -in super_secret.txt.enc -out super_secret.txt -d
+  # - cat super_secret.txt
   # Decrypt the private key
   - openssl aes-256-cbc -K $encrypted_5395e06970ac_key -iv $encrypted_5395e06970ac_iv -in .travis/ssh_key.enc -out ~/.ssh/id_rsa -d
+  - cat ~/.ssh/id_rsa
   # Set the permission of the key
   - chmod 600 ~/.ssh/id_rsa
   # Start SSH agent
