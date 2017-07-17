@@ -1,7 +1,6 @@
-
-
-
 title: 产品之道—术有专攻《基于Jenkins+简聊 打造自动化开发流程》
+date: 2016-08-01
+
 ---
 # 概述
 我参加的一次  [Teambition组织的分享活动]( http://www.huodongxing.com/event/2344873347200)

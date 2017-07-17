@@ -1,6 +1,8 @@
-
 title: 使用travis-ci自动部署hexo到github-page
+date: 2015-04-24
+
 ---
+
 #概述
 参照hexo作者的blog http://zespia.tw/blog/2015/01/21/continuous-deployment-to-github-with-travis/
 hexo官网就是采用该方案

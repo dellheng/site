@@ -1,5 +1,7 @@
 
 title:  Vagrant+Packer团队分享
+date: 2015-03-10
+
 ---
 # 概述
 
